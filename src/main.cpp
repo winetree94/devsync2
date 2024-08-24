@@ -1,5 +1,9 @@
-#include <stdio.h>
+#include <iostream>
 
-int main(int, char**){
-    printf("Hello, from devsync!\n");
+using namespace std;
+
+int main(int argc, char **argv)
+{
+    cout << "Hello, from devsync!" << endl;
+    cout << "argc: " << argc << endl;
 }
