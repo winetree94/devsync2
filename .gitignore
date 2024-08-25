@@ -5,7 +5,7 @@
 *.d
 
 # Compiled Object files
-*.slo
+*.
 *.lo
 *.o
 *.obj
@@ -38,3 +38,5 @@ build
 
 cmake-build-debug
 cmake-build-debug-mingw
+cmake-build-debug-wsl
+cmake-build-debug-msys_mingw64

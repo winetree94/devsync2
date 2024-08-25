@@ -12,5 +12,10 @@ options:
     - x64
     - x86
     - arm64
+  git:
+    ~/.zsh:
+      owner: 'tmux-plugins'
+      repo: 'tpm'
+      rev: '99469c4a9b1ccf77fade25842dc7bafbc8ce9946'
   symlink:
     ~/.zshrc: ./zshrc
