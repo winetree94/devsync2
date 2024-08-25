@@ -2,7 +2,7 @@ version: 1
 options:
   profiles:
     - winetree94
-  platforms: 
+  platforms:
     - windows
     - mac
   special:
@@ -13,4 +13,4 @@ options:
     - x86
     - arm64
   symlink:
-    ~/.zshrc: ./zshrc 
+    ~/.zshrc: ./zshrc
