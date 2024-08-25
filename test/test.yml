@@ -1,0 +1,16 @@
+version: 1
+options:
+  profiles:
+    - winetree94
+  platforms: 
+    - windows
+    - mac
+  special:
+    - mingw64
+    - ucrt64
+  architectures:
+    - x64
+    - x86
+    - arm64
+  symlink:
+    ~/.zshrc: ./zshrc 
